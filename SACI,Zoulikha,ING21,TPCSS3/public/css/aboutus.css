@@ -1,0 +1,53 @@
+*{
+    color: #09180d;
+}
+
+.bg{
+    background-color:#faebd7 ;
+    border-radius: 5px;
+    border: #09180d 3px solid;
+}
+
+#whoarewe{
+    float: left;
+    width: 94%;
+    margin: 2%;
+    padding: 1%;
+}
+
+#contactus{
+    background-color:#faebd7b4 !important;
+    float: left;
+    width: 40%;
+    padding: 1% 5%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+#contactus h2{
+    text-align: center;
+}
+
+#contactus input{
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px;
+    width: 90%;
+    border: 3px solid #09180d;
+}
+
+#contactus label{
+    font-weight: bolder;
+}
+
+#contactus textarea{
+    border-radius: 5px;
+    width: 91%;
+    border: 3px solid #09180d;
+}
+
+#send{
+    float: right;
+    width: 20% !important;
+    
+}

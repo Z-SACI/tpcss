@@ -1,0 +1,39 @@
+.titleprod{
+    margin-left: 5%;
+    background-color: #df8105;
+    width: 87%;
+    padding: 1.5%;
+    margin-bottom: 0%;
+    border-bottom: 2px #09180d solid;
+}
+
+.infoprod{
+    background-color: #df810583;
+    width: 80%;
+    margin: 0% 5% 5% 5%;
+    padding: 2% 5%;
+}
+
+.productimg{
+    display: flex;
+}
+
+.text{
+    color: #09180d;
+    background-color: #faebd7;
+    font-size: large;
+}
+
+.productimg img {
+    width: 20%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0% 2.5%;
+    border: 2px #09180d solid;
+}
+
+#imgdiscover{
+    float: left;
+    width: 21%;
+}
+

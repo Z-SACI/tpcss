@@ -1,0 +1,102 @@
+/** style des pages du site : la base **/
+html{
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url("../img/background3.jpg") repeat-y;
+}
+/** scrollbar : bar de défillement **/
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #112b18;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#df8105;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color:#faebd7;
+    cursor: pointer;
+}
+/** bar haute **/
+header{
+    float: left;
+    height: 13%;
+    width: 100%;
+    background-color:#09180d;
+    border-bottom: 2px solid;
+    border-color: #df8105d2;
+}
+/** dimensions et positionnement du logo **/
+.logo{
+    height: 90%;
+    float: left;
+    margin-left: 3%;
+}
+/** titre de page **/
+header p{
+    float: left;
+}
+.title{
+    margin: 0;
+    padding: 1.5%;
+    text-align: center;
+}
+/** style du contenu de la page global
+:: englobe la barre de navigation avec le contenu **/
+.global{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #df8105d2;
+    float: left;
+}
+/** bar de navigation : menu **/
+nav{
+    float: left;
+    width: 20%;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    text-align: center;
+}
+nav ul li a{
+    color: #faebd7;
+    border: 1px solid #09180d;
+    display: block;
+    text-decoration: none;
+    padding: 10% 5%;
+}
+nav ul li a:hover{
+    background-color: #09180d;
+    border: 1px solid #df8105d2;
+}
+/** contenu de la page **/
+.content{
+    float: left;
+    width: 80%;
+    height: auto;
+    background: url("../img/background3.jpg") fixed ;
+    background-size:contain;
+}
+/** pied de page **/
+footer{
+    float: left;
+    width: 100%;
+    height: 15%;
+    background-color:#09180d;
+}
+footer P{
+    float: right;
+    margin: 5%;
+}

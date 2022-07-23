@@ -1,0 +1,64 @@
+.categories{
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin: 2%;
+    background-color:#faebd7;
+    border-radius: 15px;
+    border: 1px solid #df8105d2;
+}
+
+h2{
+    margin-left: 10%;
+    margin-bottom: 0;
+    padding: 0;
+    color: #09180d;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li a{
+    text-decoration: none;
+    color: #09180d;
+    display: block;
+    padding: 2% 10%;
+}
+
+#notaslide{
+    float: left;
+    margin: 2%;
+    border-radius: 15px;;
+    padding: 0;
+    width: 66%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.discover{
+    background-color: #faebd7;
+    float: left;
+    width: 96%;
+    margin: 2%;
+    border-radius: 10px;
+    color: #09180d;
+}
+
+.discover p{
+    float: left;
+    width: 40%;
+    height: 30%;
+    margin: 3%;
+}
+
+#imgdiscover{
+    float: left;
+    width: 47%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin: 3%;
+}

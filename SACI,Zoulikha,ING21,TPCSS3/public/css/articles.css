@@ -1,0 +1,49 @@
+/** STYLE PAGE ARTICLES **/
+/** style de la div : présentation de chaque article de la liste **/
+.article{
+    float: left;
+    width: 90%;
+    height: auto;
+    background-color: #09180d;
+    border: 2px solid #df8105d2;
+    border-radius: 10px;
+    margin:2% 4% ;
+}
+/** nom d'article**/
+.article h2{
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+}
+/** dimension et position des images d'articles**/
+.article img{
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+/** description de l'article **/
+.article p{
+    float: left;
+    width: 68%;
+    height: 200px;
+    margin: 0% 4% 0% 4%;
+    margin: O;
+    padding: O;
+    overflow: hidden;
+}
+/** bouton voir article **/
+.button{
+    float: right;
+    background-color: #ffffff;
+    color:#09180d;
+    margin: 0% 4% 1% 0%;
+    padding: 1%;
+    text-decoration: none;
+    border: 1px solid #df810500;
+    border-radius: 10px;
+}
+.button:hover{
+    color:#df8105d2;
+    border: 1px solid #df8105d2;
+}
